@@ -3,7 +3,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #31313127;
+    background-color: #1d1d1d31;
     backdrop-filter: blur(10px);
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -11,6 +11,8 @@ header {
 
     .container {
         display: flex;
+        margin: auto;
+        width: 95%;
         justify-content: space-between;
         align-items: center;
     }
