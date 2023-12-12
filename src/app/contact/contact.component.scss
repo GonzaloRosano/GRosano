@@ -1,0 +1,37 @@
+.contact-container {
+    max-width: 800px;
+    margin: 20px auto;
+    align-items: center;
+    background-color: #20202027;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .contact-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  
+  .header-text {
+    h2 {
+      color: #6621bb;
+      margin-bottom: 13px;
+    }
+  
+    p.subtitle {
+      color: #7b49d1;
+      font-weight: 620;
+      margin-bottom: 0;
+    }
+  }
+  
+  .contact-content {
+    p {
+      color: #e0e0e0;
+      margin-bottom: 20px;
+    }
+  }

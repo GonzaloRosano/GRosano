@@ -1,0 +1,50 @@
+.about-me-container {
+    max-width: 800px;
+    margin: 20px auto;
+    align-items: center;
+    background-color: #20202027;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .about-me-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .profile-image-container {
+    width: 85px; /* Ajusta el tamaño según sea necesario */
+    height: 85px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  
+  .header-text {
+    h2 {
+      color: #dd1234;
+      margin-bottom: 13px;
+    }
+  
+    p.subtitle {
+      color: #fa3973;
+      font-weight: 620;
+      margin-bottom: 0;
+    }
+  }
+  
+  .about-me-content {
+    p {
+      color: #e0e0e0;
+      margin-bottom: 20px;
+    }
+  }

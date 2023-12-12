@@ -1,0 +1,25 @@
+    .contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 63.19px);
+    margin: auto;
+    margin-top: 63.19px;
+}
+
+.section {
+    max-width: 1000px;
+    padding: 20px;
+    backdrop-filter: blur(10);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .section h2 {
+    color: #4a148c;
+  }
+  
+  .section p {
+    color: #333;
+  }
